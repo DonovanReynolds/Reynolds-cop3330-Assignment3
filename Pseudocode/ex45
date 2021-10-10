@@ -1,0 +1,7 @@
+Read in the input from file
+store the input in arraylist
+        Split the array up every time there is a space into a new word
+Check to see if each element in the array contains the word "Utilize"
+        if it does contain utilize change utilize to use then store
+Prompt for an output file
+Write each element one by one in an output file

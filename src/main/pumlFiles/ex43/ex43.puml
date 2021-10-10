@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App {
+}
+
+class HelpfulMethods{
+    *inputOutput(String textToSay)
+}
+
+class WebsiteGenerator {
+    String siteName;
+    String authorName;
+    String URL;
+    boolean javaScriptFolder;
+    boolean CSSFolder;
+
+
+    *WebsiteGen(String siteName, String authorName, boolean javaScriptFolder, boolean CSSFolder) {
+
+    *makeFolders()
+    *makeDir()
+    *makeIndex()
+    *makeJS()
+    *makeCSS()
+    *generateIndexContent()
+    *getters and setters
+    *toString()
+
+
+}
+object websiteFolder
+HelpfulMethods *--> App
+App *--> WebsiteGenerator
+WebsiteGenerator -.> websiteFolder
+
+@enduml

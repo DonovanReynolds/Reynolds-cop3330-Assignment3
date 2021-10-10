@@ -1,0 +1,51 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App {
+    +checkArr(String,ArrayList<>)
+}
+class Methods{
+    +inputOutput(String)
+    +getFirstChar(String)
+    +stringToInt(String)
+    +stringToIntNoLoop(String)
+    +stringToDouble(String)
+
+}
+class JsonParse {
+    *ArrayList<>
+
+    +JsonParse()
+    +getProducts()
+    +makeArr(JsonArray)
+    +getFile(String)
+}
+
+class Product {
+    *String name
+    *double price
+    *int quantity
+
+    +Product()
+    +Product(String, double, int)
+
+    +getName()
+    +getPrice()
+    +getQuantity()
+    +setName()
+    +setPrice()
+    +setQuantity()
+
+    +toString()
+
+}
+object File
+object ProductList
+
+App --> Methods
+App --> JsonParse
+JsonParse o--> File
+JsonParse --> ProductList
+ProductList o--> Product
+
+@enduml

@@ -1,0 +1,6 @@
+Get the file to parse from the .json
+Parse file from json to arrayList of products
+    Create each product from the .json file
+Take arraylist and find product inside
+Print the product
+If product does not exist then keep looping until it does

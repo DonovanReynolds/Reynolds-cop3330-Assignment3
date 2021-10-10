@@ -1,0 +1,6 @@
+Read in file input output and check to see if they exist and their contents are readable.
+Split the file from one big string into smaller names using split function.
+Store this split up String into an Arraylist as a firstname then lastname as one element.
+To get the total just take the Arraylist size and print it.
+Use collections sort to sort the array by last name.
+Write output to an output file.

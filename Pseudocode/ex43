@@ -1,0 +1,9 @@
+Prompt user for inputs through the console
+Get the sitename author Strings and the booleans for folders for JS and CSS
+Using a class called WebsiteGen create the directories for the following.
+Make the directory for the sitename.
+If folder for javascript is true
+    Make a directory using the sitename and js as a directory.
+If folder for css is true
+    Make a directory using the sitename and css as a directory.
+Make the index.html in the directory for sitename with the contents of showing the author and sitename.

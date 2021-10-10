@@ -1,0 +1,5 @@
+Read in input from file and check that it exists and contents are readable.
+Split the string by ',' so we have many smaller strings.
+Store each of these smaller strings into an element for the class Person.
+Make an arraylist of type Person for each new person made by the strings.
+Using the toString to format write the contents to a file in a tabular format.

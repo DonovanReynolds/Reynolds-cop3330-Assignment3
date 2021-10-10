@@ -1,0 +1,8 @@
+Read input from file
+Store this input as a string
+Split this string up for every word
+Use an Object called word that has a String name and int frequency to count
+        If split text has new word create new object
+        else increment count
+Sort words by frequency
+Print out words
